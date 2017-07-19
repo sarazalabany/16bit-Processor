@@ -82,7 +82,7 @@ architecture UKM901_behav of UKM901 is
 	signal temp1			:	std_logic_vector	(15 downto 0);	
 	signal int_high	:	std_logic_vector (15 downto 0) := x"0002";   --IFLAG value
 	signal toMux1, toMux2, input1_mux, input2_mux, output_mux : std_logic_vector (15 downto 0);
-	signal X_signal			:std_logic := '0';
+	signal X_signal			:std_logic := '0';  --select signal for MUX
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		
 --ALU component declaration
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
