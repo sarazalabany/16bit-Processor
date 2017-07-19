@@ -96,8 +96,7 @@ architecture UKM901_behav of UKM901 is
 
 	end component MUX1;
   ----------------------------------------------------------------	
-	component D_flip
-
+	component D_flip 
 		
 	PORT ( 		inp        		:IN STD_LOGIC_VECTOR (15 downto 0);
 		         outp 				:OUT STD_LOGIC_VECTOR(15 downto 0);
@@ -173,7 +172,7 @@ begin
 				clr	  =>  res
 				);	
 				
-	M1 	 : MUX1 port map(
+	M1 	 : MUX1 port map(         --to choose which component writes to IFLAG
 				input1_mux  =>  toMux1,
 				input2_mux  =>  toMux2,
 				sel => X_signal , 
