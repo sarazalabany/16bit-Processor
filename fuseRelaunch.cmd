@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/sara zalabany/processor_16_bits/tb_debug_module_isim_beh.exe" -prj "C:/Users/sara zalabany/processor_16_bits/tb_debug_module_beh.prj" "work.tb_debug_module" 
